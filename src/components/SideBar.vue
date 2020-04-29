@@ -1,5 +1,5 @@
 <template>
-  <div class="col-lg-4 col-xl-3 sidebar pl-5 pr-5">
+  <div class="col-lg-4 col-xl-3 col sidebar pl-5 pr-5">
     <div class="form-group row mt-3">
       <label for="city" class="col-3 col-form-label">城市</label>
       <select

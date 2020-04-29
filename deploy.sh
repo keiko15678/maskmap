@@ -9,5 +9,5 @@ git init
 git add -A
 git commit -m 'deploy'
 # 分支為 gh-pages
-git push -f https://github.com/keiko15678/shopsite-vue.git master:gh-pages
+git push -f https://github.com/keiko15678/maskmap.git master:gh-pages
 cd -

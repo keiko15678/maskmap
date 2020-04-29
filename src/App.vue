@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <div class="row">
+    <div class="row ml-0 mr-0">
       <SideBar
         :maskData="maskData"
         :city="city"
@@ -15,7 +15,7 @@
         :byAdult.sync="byAdult"
         :byChild.sync="byChild"
       />
-      <div class="col-lg-8 col-xl-9 map pl-lg-0">
+      <div class="col-lg-8 col-xl-9 map pl-0 pr-0">
         <Map :maskData="result" :manualCenter="manualCenter" />
       </div>
     </div>
