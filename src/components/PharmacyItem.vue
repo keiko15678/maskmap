@@ -1,5 +1,5 @@
 <template>
-  <li class="list-group-item pointer">
+  <li class="list-group-item border-0">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title d-flex align-items-center">
@@ -30,22 +30,25 @@
           >
         </p>
         <div class="d-flex">
-          <span
+          <a
+            href="javascript:;"
             class="mr-2 btn btn-primary text-white"
             v-show="!open"
             @click="handleOpen"
-            >詳情</span
+            >詳情</a
           >
-          <span
+          <a
+            href="javascript:;"
             class="mr-2 btn btn-primary text-white"
             v-show="open"
             @click="handleOpen"
-            >詳情</span
+            >詳情</a
           >
-          <span
+          <a
+            href="#map"
             class="btn btn-info text-white"
             @click="handleUpdateCenter(store.geometry.coordinates)"
-            >地圖</span
+            >地圖</a
           >
         </div>
       </div>
@@ -77,8 +80,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.pointer {
-  cursor: pointer;
-}
-</style>
+<style lang="scss" scoped></style>

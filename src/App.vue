@@ -91,7 +91,7 @@ export default {
   },
   methods: {
     fetchCityData() {
-      this.axios.get('/cityCountyData.json').then(res => {
+      this.axios.get('/maskmap/cityCountyData.json').then(res => {
         this.data = res.data
         this.city = res.data.map((item, index) => {
           return {
